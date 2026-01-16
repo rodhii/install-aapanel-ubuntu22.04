@@ -1,0 +1,1 @@
+# install-aapanel-ubuntu22.04
