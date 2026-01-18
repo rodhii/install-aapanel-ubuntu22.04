@@ -30,7 +30,7 @@ wget http://cn2.php.net/distributions/php-5.6.30.tar.gz
 tar -zxvf php-5.6.30.tar.gz
 cd php-5.6.30/ext/mssql/
 /www/server/php/56/bin/phpize
-./configure --with-php-config=/www/server/php/56/bin/php-config --with-mssql=/usr/local/freetds/
+./configure --with-php-config=/www/server/php/56/bin/php-config --with-mssql=/usr
 make && make install
 ```
 tambahkan di php.ini
@@ -57,7 +57,7 @@ cd php-5.6.30/ext/pdo_dblib
 /www/server/php/56/bin/phpize
 
 # Configure ekstensi pdo_dblib dengan PHP 5.6 + path FreeTDS
-./configure --with-php-config=/www/server/php/56/bin/php-config --with-pdo-dblib=/usr/local/freetds
+./configure --with-php-config=/www/server/php/56/bin/php-config --with-pdo-dblib=/usr
 
 # Compile & install
 make && make install
